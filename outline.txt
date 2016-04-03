@@ -1,0 +1,8 @@
+1.	Introduction 10 pages
+2.	Amplifier Classes
+3.	Class F Detailed Description 
+4.	Class F Amplifier ADS Simulations, Comparisons to Specs
+5.	Class F Amplifier Test Results, Comparisons to Specs
+6.	Conclusion, Future Projects
+
+Thesis draft is due at week 7

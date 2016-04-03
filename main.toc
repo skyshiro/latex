@@ -1,0 +1,9 @@
+\contentsline {section}{\numberline {0.1}Amplifier Classes}{vii}{section.0.1}
+\contentsline {subsection}{\numberline {0.1.1}Class F Amplifier}{vii}{subsection.0.1.1}
+\contentsline {section}{\numberline {0.2}Class F Detailed Description }{ix}{section.0.2}
+\contentsline {section}{\numberline {0.3}Class F Amplifier ADS Simulations, Comparisons to Specs}{x}{section.0.3}
+\contentsline {section}{\numberline {0.4}Class F Amplifier Test Results, Comparisons to Specs}{xi}{section.0.4}
+\contentsline {section}{\numberline {0.5}Conclusion, Future Projects}{xii}{section.0.5}
+\contentsline {chapter}{List of Tables}{xiii}{chapter*.2}
+\contentsline {chapter}{List of Figures}{xiv}{chapter*.3}
+\contentsline {chapter}{Bibliography}{2}{chapter*.4}
