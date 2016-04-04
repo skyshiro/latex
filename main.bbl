@@ -22,7 +22,8 @@ P.~Colantonio, F.~Giannini, G.~Leuzzi, and E.~Limiti.
 P.~Colantonio, F.~Giannini, G.~Leuzzi, E.~Limiti, I.~Elettronica, and
   T.~Vergata.
 \newblock {On the Class-F Power Amplifier Design}.
-\newblock pages 129--149, 1998.
+\newblock {\em International Journal of RF and Microwave Computer-Aided
+  Engineering}, 9(2):129--149, 1998.
 
 \bibitem{Gao2006}
 S.~Gao.
@@ -40,10 +41,15 @@ T.~He and U.~Balaji.
 \newblock {Design of a Class F Power Amplifier}.
 \newblock {\em PIERS Online}, 6(2):141--144, 2010.
 
+\bibitem{Hella}
+M.~Hella and M.~Ismail.
+\newblock {\em {RF CMOS Power Amplifiers: Theory, Design and Implementation}}.
+
 \bibitem{Ingruber1998}
 B.~Ingruber, S.~Member, W.~Pritzl, D.~Smely, M.~Wachutka, and G.~Magerl.
 \newblock {High-Efficiency Harmonic-Control Amplifier}.
-\newblock 46(6):857--862, 1998.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques},
+  46(6):857--862, 1998.
 
 \bibitem{Inoue2004}
 A.~Inoue, A.~Ohta, S.~Goto, T.~Ishikawa, and Y.~Matsuda.
@@ -78,6 +84,11 @@ J.~Kye-Ik, K.~Young-Se, and H.~Song-Cheol.
 \newblock {\em Microwave Symposium Digest, 1997., IEEE MTT-S International},
   2:817--820 vol.2, 1997.
 
+\bibitem{Lucyszyn1997}
+S.~Lucyszyn.
+\newblock {Power-Added Efficiency Errors With RF Power Amplifiers}.
+\newblock {\em International Journal of Electronics}, 82 (3)(3):303--312, 1997.
+
 \bibitem{Moon2012}
 J.~Moon, S.~Jee, J.~Kim, J.~Kim, and B.~Kim.
 \newblock {Behaviors of class-F and Class-F -1 Amplifiers}.
@@ -91,17 +102,64 @@ G.~Nikandish, E.~Babakrpur, and A.~Medi.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques},
   62(5):1212--1220, 2014.
 
+\bibitem{Raab2003c}
+B.~F.~H. Raab, P.~Asbeck, S.~Cripps, P.~B. Kenington, Z.~B. Popovich,
+  N.~Pothecary, J.~F. Sevic, and N.~O. Sokal.
+\newblock {RF and Microwave Power Amplifier and Transmitter Technologies - Part
+  4}.
+\newblock {\em High Frequency Electronics}, (November):38--49, 2003.
+
 \bibitem{Raab2001}
 F.~Raab.
 \newblock {Maximum efficiency and output of class-F power amplifiers}.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques},
   49(6):1162--1166, 2001.
 
+\bibitem{Raab2003a}
+F.~Raab, P.~Asbeck, S.~Cripps, P.~Kenington, Z.~Popovic, N.~Pothecary,
+  J.~Sevic, and N.~Sokal.
+\newblock {RF and microwave power amplifier and transmitter technologies - Part
+  1}.
+\newblock {\em High Frequency Electronics}, 2(5):22--36, 2003.
+
 \bibitem{Raab1997}
 F.~H. Raab.
 \newblock {Class-F Power Amplifiers with Maximally Flat Waveforms}.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques},
   45(11):2007--2012, 1997.
+
+\bibitem{Raab2002}
+F.~H. Raab, P.~Asbeck, S.~Cripps, P.~B. Kenington, Z.~B. Popovi{\'{c}},
+  N.~Pothecary, J.~F. Sevic, and N.~O. Sokal.
+\newblock {Power amplifiers and transmitters for RF and microwave}.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques},
+  50(3):814--826, 2002.
+
+\bibitem{Raab2003}
+F.~H. Raab, P.~Asbeck, S.~Cripps, P.~B. Kenington, Z.~B. Popovic, N.~Pothecary,
+  J.~F. Sevic, and N.~O. Sokal.
+\newblock {RF and Microwave Power Amplifier and Transmitter Technologies - Part
+  2}.
+\newblock {\em High Frequency Electronics}, (5):22--36, 2003.
+
+\bibitem{Raab2003b}
+F.~H. Raab, P.~Asbeck, S.~Cripps, P.~B. Kenington, Z.~B. Popovic, N.~Pothecary,
+  J.~F. Sevic, and N.~O. Sokal.
+\newblock {RF and Microwave Power Amplifier and Transmitter Technologies - Part
+  3}.
+\newblock {\em High Frequency Electronics}, (9):34--48, 2003.
+
+\bibitem{Raab2004}
+F.~H. Raab, P.~Asbeck, S.~Cripps, P.~B. Kenington, Z.~B. Popovic, N.~Pothecary,
+  J.~F. Sevic, and N.~O. Sokal.
+\newblock {RF and Microwave Power Amplifier and Transmitter Technologies - Part
+  5}.
+\newblock {\em High Frequency Electronics}, (January):46--54, 2004.
+
+\bibitem{Rosu2001}
+I.~Rosu.
+\newblock {RF power amplifiers}.
+\newblock pages 1--20, 2001.
 
 \bibitem{Rudiakova2006}
 A.~Rudiakova and V.~Krizhanovski.

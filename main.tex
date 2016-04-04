@@ -23,7 +23,8 @@
 \usepackage{cleveref}
 \usepackage[]{algorithm2e}
 
-
+% Sets line spacing to double
+% \linespread{1.6}
 
 \makeindex
 \makeglossaries
@@ -81,8 +82,6 @@
 
 \tableofcontents
 
-\input{chapter-outline}
-
 \listoftables
 
 \listoffigures
@@ -90,13 +89,14 @@
 \end{frontmatter}
 
 \pagestyle{plain}
-
 \renewcommand{\baselinestretch}{1.66}
+
+\input{chapter-outline}
 
 \clearpage
 \begin{flushleft}
 \nocite{*}
-\bibliography{bibliography}
+\bibliography{library}
 \bibliographystyle{plain}
 \end{flushleft}
 
