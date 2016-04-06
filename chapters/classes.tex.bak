@@ -1,8 +1,8 @@
 \chapter{Amplifier Classes}
 The generic power amplifier consists of a transistor with a DC bias and AC coupled to the RF input and output ports. For the sake of simplicity this paper will describe the operation of FET amplifiers. The major source of power consumption of an amplifier comes from the drain source current that flows during operation. By reducing the current flow, the power added efficiency (PAE) of the amplifiers can be increased
-Power amplifiers come in a variety of classes, and the most commonly used ones are A, B, AB, C, D, E, and F. Classes A through C can be described by the conduction angle of the device. The conduction angle is the amount of current flowing through the transistor from drain to source during a single cycle of the AC signal being amplified ranging from 0 to 2$\pi$ \cite{}. Classes D through F are defined as switching amplifiers and go more into depth here. %more analysis
+Power amplifiers come in a variety of classes, and the most commonly used ones are A, B, AB, C, D, E, and F. Classes A through C can be described by the conduction angle of the device. The conduction angle is the amount of current flowing through the transistor from drain to source during a single cycle of the AC signal being amplified ranging from 0 to $2\pi$ \cite{Colantonio1998}. Classes D through F are defined as switching amplifiers and vary due to the output matching network which shape the waveforms of the current and voltage at the drain of the device.
 
-For class A, the conduction angle is 2$\pi$ meaning current is always flowing when the amplifier is on increasing the power consumption. Class A does have the advantage of having the highest gain at a given frequency compared to other classes and also can operate near the frequency limit of a transistor .\cite{Tsang2010} Class A also has the highest linearity, lowest harmonic distortion, and is advantageous when high dynamic range is required .\cite{C.Cripps2006} Class B has a conduction angle of $\pi$ so current only flows during half the cycle of the AC signal reducing power consumption. Class AB has a conduction angle between $\pi$ and 2$\pi$. Class E is a type of harmonic termination that uses capacitive terminations at the output to achieve 100\% efficiency.
+For class A, the conduction angle is $2\pi$ meaning current is always flowing when the amplifier is on increasing the power consumption. Class A does have the advantage of having the highest gain at a given frequency compared to other classes and also can operate near the frequency limit of a transistor .\cite{} Class A also has the highest linearity, lowest harmonic distortion, and is advantageous when high dynamic range is required .\cite{C.Cripps2006} Class B has a conduction angle of $\pi$ so current only flows during half the cycle of the AC signal reducing power consumption. Class AB has a conduction angle between $\pi$ and $2\pi$. Class E is a type of harmonic termination that uses capacitive terminations at the output to achieve 100\% efficiency.
 
 % Citations are wrong above!
 
@@ -11,38 +11,108 @@ For class A, the conduction angle is 2$\pi$ meaning current is always flowing wh
 To reduce the power consumption of a power amplifiers, two major concepts are important: zero voltage switching (ZVS) and zero voltage derivative switching (ZVDS). ZVS is when as the name implies, there is zero voltage when the amplifier is switched on and conducting so while current flows through the output no power is consumed. ZVDS is when there is no overlap between the voltage and current waveforms so no power is consumed during switching. If an amplifier can achieve ZVS and ZVDS it would theoretically be 100\% efficient. A measure of amplifier efficiency is the power added efficiency (PAE) defined in equation~\ref{pae}. PAE is a measure of how efficient an amplifier is able to convert the input DC power into RF power gain. Ideally all of the DC power used to power the amplifier would be used to increase the input RF power. The maximum limit for a lossless system is 100\%, for example if a power amplifier consumed 1 Watt and was able to output 1.001 Watt of RF power from 1 mW of RF input power, the PAE would be 100.\% because all of the DC power was used to increase the RF power.
 
 \begin{equation}\label{pae}
-  PAE,\% = \frac{RF Power_{out} - RF Power_{in}}{DC Power}
+  PAE,\% = \frac{RF\;Power_{out} - RF\\Power_{in}}{DC\;Power}
 \end{equation}
 
-\section{Class A Amplifier}
+Another measure of amplifier efficiency is the drain efficiency which is the proportion of the output power of the fundamental harmonic over the DC power consumed seen in Equation \ref{drain_eff}. The drain efficiency is typically used when talking about the theory behind the different amplifier classes. In practice, PAE is used as the metric to compare power amplifier efficiency because it takes in account RF input power which is relatively large compared to small signal amplifiers.
 
-The class A amplifier uses a bias that results in a conduction angle of 2$\pi$ which results in power always being consumed due to the constant bias current and voltage present at the drain of the amplifier. The bias point is chosen so the transistor operates in the active region which can be seen in Figure \ref{classa_bias}. The constant power consumption limits the maximum efficiency of the class A amplifier to 50\% \cite{C.Cripps2006}. The class A amplifier is the most linear of all classes due to the conduction angle. %fix wording
-The high linearity allows the class A amplifier to have the lowest intermodulation distortion (IMD) of all the amplifier classes. The downside of the linearity is that the input drive level is proportional to the IMD present at the output of the amplifier. Class A amplifiers are also able to operate closer to the highest operating frequency of a transistor due to lack of harmonics used in the amplifier.
+\begin{equation}\label{drain_eff}
+  \eta, \% = \frac{P_{Fundamental}}{DC\;Power}
+\end{equation}
 
-The class A amplifier is similar to the small signal amplifier in many ways.
+\section{Bias Point Dependent Amplifier}
+
+\subsection{Class A Amplifier}
+
+The class A amplifier uses a bias that results in a conduction angle of $2\pi$ and a theoretical quiescent current of 50\% the maximum drain current. This results in power always being consumed due to the constant bias current and voltage present at the drain of the amplifier. The bias point is chosen so the transistor operates in the active region which can be seen in Figure \ref{classa_bias}. The constant power consumption limits the maximum efficiency of the class A amplifier for a continuous wave (CW) signal to 50\% \cite{C.Cripps2006}.
+The class A amplifier is the most linear of all classes due to the conduction angle. The high linearity allows the class A amplifier to have the lowest intermodulation distortion (IMD) of all the amplifier classes. The downside of the linearity is that the input drive level is proportional to the IMD present at the output of the amplifier. Class A amplifiers are also able to operate closer to the highest operating frequency of a transistor due to lack of harmonics used in the amplifier \cite{}. %ham paper
+
+The class A amplifier is similar to the small signal amplifier in many ways. In practice, the class A amplifier
 
 %Fix all the citations lol
 
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
-  \includegraphics[width=6in]{figures/classa}
-  \caption{Class A Bias Point and Conduction Cycle}\label{classa_bias}
+  \includegraphics[width=6in]{figures/classes/classa}
+  \caption{Class A Bias Point and Conduction Cycle \cite{Rosu2001}}\label{classa_bias}
 \end{figure}
 
-\section{Class B Amplifier}
+\subsection{Class B Amplifier}
 
-\section{Class AB Amplifier}
+Class B uses a conduction angle of $\pi$ resulting in a half sinusoid waveform for the drain current seen in Figure \ref{classb_bias} with a theoretical quiescent current of 0 A. The maximum efficiency for a CW signal is 78.5\%. The reduced conduction angle causes the required input power to achieve the maximum efficiency to be 6 dB higher compared to the class A amplifier \cite{C.Cripps2006}.
+Drain current is proportional to the input signal the Class B amplifier is considered a linear amplifier but will result in harmonic distortion. The output is usually filtered to reduce the harmonic distortion\cite{Raab2003}.
+In most applications, the class B amplifier is used in a push pull configuration to reduce distortion by providing a full sine wave output and maintain greater efficiency than a class A amplifier. Also instead of setting the quiescent current to 0, the drain current is typically set to 10\% of the max drain current of the transistor to reduce the harmonic distortion. An interesting result of the push pull configuration is that even harmonics subtract one another out while odd harmonics add together \cite{Rosu2001}
 
-\section{Class C Amplifier}
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=6in]{figures/classes/classb_bias}\\
+  \caption{Class B Bias Point and Conduction Cycle \cite{Rosu2001}}\label{classb_bias}
+\end{figure}
 
-\section{Class D Amplifier}
 
-\section{Class E Amplifier}
+\subsection{Class AB Amplifier}
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=6in]{figures/classes/classab_bias}\\
+  \caption{Class AB Bias Point and Conduction Cycle \cite{Rosu2001}}\label{classab_bias}
+\end{figure}
+
+
+The class AB amplifier uses a conduction angle ranging between $\pi$ and $2\pi$ and is a compromise between class A and class B amplifiers. The drain efficiency lies between 50\% and 78.5\% with approximately the same output power as the class A amplifier \cite{C.Cripps2006}. The bias point and conduction cycle can be seen in Figure \ref{classab_bias}.
+The class AB amplifier offers a wider dynamic range than class A or class B because the conduction angle is proportional to the drain current which also results in the class AB amplifier being a non-linear amplifier \cite{C.Cripps2006}.
+
+\subsection{Class C Amplifier}
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=6in]{figures/classes/classc_bias}\\
+  \caption{Class C Bias Point and Conduction Cycle \cite{Rosu2001}}\label{classc_bias}
+\end{figure}
+
+The class C amplifiers is biased such that the quiescent current is 0 A and the conduction angle is between $0$ and $\pi$ seen in Figure \ref{classc_bias}. The class C amplifier is non-linear with a higher efficiency than class B with a maximum drain efficiency of 100\% at zero conduction angle but will have zero gain. In practice, the class C amplifier has a conduction angle slightly less than $\pi$ for a maximum efficiency of 85\% while still having a useful gain \cite{Raab2003}. The class C has the highest harmonic distortion of all the bias point amplifier classes which will be shown in the following section. Class C amplifiers aren't typically used for microwave power amplifiers due to the large negative voltage present at the gate of the transistor which can cause reverse breakdown in the transistor \cite{C.Cripps2006}. In summary the class C amplifier offers a tradeoff of higher efficiency but with higher harmonic distortion and lower output power level compared to the other bias point amplifier classes.
+
+\subsection{Harmonic Distortion}
+
+All of the bias point power amplifiers are functions of conduction angle.
+
+The bias point power amplifiers can be generalized to a power amplifier with various conduction angle and the drain efficiency, output power, and harmonic distortion can be described as a function of conduction angle seen in Equations \ref{eq:cond_eff}, \ref{eq:cond_pout}, and \ref{eq:cond_current} \cite{Hella}. Figure \ref{fig:bias_current_harmonic} shows the normalized output current harmonic versus conduction angle for a power amplifier. At a conduction angle of $2\pi$
 
 
 
-\section{Class F Amplifier}
+\begin{equation}\label{eq:cond_eff}
+  \eta = \frac{v_{dd} - v_{sat}}{v_{dd}} \frac{\theta - sin\theta}{4(sin\frac{\theta}{2} - \frac{\theta}{2} cos\frac{\theta}{2}) }
+\end{equation}
+
+\begin{equation}\label{eq:cond_pout}
+  P_{out} = \frac{1}{2}(v_{dd} - v_{sat} )\frac{I_m}{2\pi}(\theta - sin\theta)
+\end{equation}
+
+\begin{equation}\label{eq:cond_current}
+  I_n = \frac{1}{\pi}\int_{-\frac{\theta}{2}}^{\frac{\theta}{2}} \frac{I_m}{1 - cos(\frac{\theta}{2})} (cos\alpha - cos(\frac{\theta}{2}))cos(n\alpha) \; d\alpha
+\end{equation}
+
+\begin{figure}
+  \centering
+  % Requires \usepackage{graphicx}
+  \includegraphics[width=6in]{figures/classes/bias_current_harmonic}\\
+  \caption{Normalized Current Harmonic Amplitude versus Conduction Cycle \cite{C.Cripps2006}}\label{fig:bias_current_harmonic}
+\end{figure}
+
+
+\section{Switching Amplifier}
+
+\subsection{Class D Amplifier}
+
+\subsection{Class E Amplifier}
+
+
+
+\subsection{Class F Amplifier}
 
 The class F amplifier has a theoretical efficiency of 100\% through the use of multi harmonic terminations. The theory behind the class F amplifier relies on the generation of odd voltage harmonics and shorting of even voltage harmonics at the drain of the device to increase the efficiency of the amplifier. By keeping only the odd harmonics of the signal at the output, ideally a square wave would appear and by biasing the amplifier at a conduction angle of pi the amplifier has zero overlap between the current and voltage waveforms and no power consumed when the amplifier is switched on.
 The harmonics are generated due to the knee voltage of the transistor. When the AC signal causes the transistor to reach saturation the abrupt change in current flow generates voltage harmonics. In practice it becomes challenging to design matching networks as the number of harmonics to control increases. Also the output capacitance of the transistor will eventually short out higher order harmonics so 100\% efficiency is not realizable in practice. By controlling up to the 5th harmonic, 90.5\% efficiency can be achieved.

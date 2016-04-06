@@ -1,16 +1,13 @@
-\BOOKMARK [0][-]{chapter*.2}{List of Tables}{}% 1
-\BOOKMARK [0][-]{chapter*.3}{List of Figures}{}% 2
-\BOOKMARK [0][-]{chapter.1}{Amplifier Classes}{}% 3
-\BOOKMARK [1][-]{section.1.1}{Efficiency of Amplifiers}{chapter.1}% 4
-\BOOKMARK [1][-]{section.1.2}{Class A Amplifier}{chapter.1}% 5
-\BOOKMARK [1][-]{section.1.3}{Class B Amplifier}{chapter.1}% 6
-\BOOKMARK [1][-]{section.1.4}{Class AB Amplifier}{chapter.1}% 7
-\BOOKMARK [1][-]{section.1.5}{Class C Amplifier}{chapter.1}% 8
-\BOOKMARK [1][-]{section.1.6}{Class D Amplifier}{chapter.1}% 9
-\BOOKMARK [1][-]{section.1.7}{Class E Amplifier}{chapter.1}% 10
-\BOOKMARK [1][-]{section.1.8}{Class F Amplifier}{chapter.1}% 11
-\BOOKMARK [1][-]{section.1.9}{Class F Detailed Description }{chapter.1}% 12
-\BOOKMARK [1][-]{section.1.10}{Class F Amplifier ADS Simulations, Comparisons to Specs}{chapter.1}% 13
-\BOOKMARK [1][-]{section.1.11}{Class F Amplifier Test Results, Comparisons to Specs}{chapter.1}% 14
-\BOOKMARK [1][-]{section.1.12}{Conclusion, Future Projects}{chapter.1}% 15
-\BOOKMARK [0][-]{chapter*.5}{Bibliography}{}% 16
+\BOOKMARK [0][-]{chapter.1}{Amplifier Classes}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Efficiency of Amplifiers}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Bias Point Dependent Amplifier}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Class A Amplifier}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Class B Amplifier}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Class AB Amplifier}{section.1.2}% 6
+\BOOKMARK [2][-]{subsection.1.2.4}{Class C Amplifier}{section.1.2}% 7
+\BOOKMARK [2][-]{subsection.1.2.5}{Harmonic Distortion}{section.1.2}% 8
+\BOOKMARK [1][-]{section.1.3}{Switching Amplifier}{chapter.1}% 9
+\BOOKMARK [2][-]{subsection.1.3.1}{Class D Amplifier}{section.1.3}% 10
+\BOOKMARK [2][-]{subsection.1.3.2}{Class E Amplifier}{section.1.3}% 11
+\BOOKMARK [2][-]{subsection.1.3.3}{Class F Amplifier}{section.1.3}% 12
+\BOOKMARK [0][-]{chapter*.7}{Bibliography}{}% 13
