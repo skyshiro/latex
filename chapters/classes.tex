@@ -80,11 +80,33 @@ The class C amplifiers is biased such that the quiescent current is 0 A and the 
 
 All of the bias point power amplifiers are functions of conduction angle.
 
-The bias point power amplifiers can be generalized to a power amplifier with various conduction angle and the drain efficiency, output power, and harmonic distortion can be described as a function of conduction angle seen in Equations \ref{eq:cond_eff}, \ref{eq:cond_pout}, and \ref{eq:cond_current} \cite{Hella}. Figure \ref{fig:bias_current_harmonic} shows the normalized output current harmonics versus conduction angle. At a conduction angle of $2\pi$, the output has minimal harmonic distortion with only the fundamental and DC component  present. The DC is easily removed by coupling capacitor. As conduction angle increase, so does the harmonic amplitude which causes increased harmonic distortion and the DC power is reduced increasing the efficiency. Figure \ref{fig:bias_power_eff} shows the RF power relative to class A and efficiency versus conduction angle assuming the harmonics are removed and the transistor is optimally loaded. A power amplifier is properly loaded if the load resistance is equal to the DC drain voltage divided by the fundamental drain current, see Equation \ref{eq:opt_load} \cite{C.Cripps2006}.
+The bias point power amplifiers can be generalized to a power amplifier with various conduction angle and the drain efficiency, output power, and harmonic distortion can be described as a function of conduction angle seen in Equations \ref{eq:cond_eff}, \ref{eq:cond_pout}, and \ref{eq:cond_current} \cite{Hella}. Figure \ref{fig:bias_current_harmonic} shows the normalized output current harmonics versus conduction angle. At a conduction angle of $2\pi$, the output has minimal harmonic distortion with only the fundamental and DC component  present. The DC component is easily removed by coupling capacitor. As conduction angle increase, so does the harmonic amplitude which causes increased harmonic distortion and the DC power is reduced increasing the efficiency. Figure \ref{fig:bias_power_eff} shows the RF power relative to class A and efficiency versus conduction angle assuming the harmonics are removed and the transistor is optimally loaded. A power amplifier is properly loaded if the load resistance is equal to the DC drain voltage minus the knee voltage of the transistor divided by the fundamental drain current, see Equation \ref{eq:opt_load} \cite{Hella}. The figure is referenced to a class A amplifier
+
+
+%In the equations, $v_{dd}$ is the drain voltage, $v_{sat}$ is the saturation voltage of the transistor, $\theta$ is the conduction angle in radians,
+
+\begin{table}
+    \caption{Table of Bias Point Waveform Parameters}
+    \label{table:waveform_param}
+        \begin{center}
+            \begin{tabular}{|l|l|l|}
+              \hline
+              % after \\: \hline or \cline{col1-col2} \cline{col3-col4} ...
+              Parameter & Definition & Units\\ \hline
+              $I_m$ & Maximum drain current of transistor & A \\ \hline
+              $I_n$ & Magnitude of current harmonic $n$ & A \\ \hline
+              $v_{dd}$ & DC drain voltage & V\\ \hline
+              $v_{knee}$ & Knee voltage of transistor & V\\ \hline
+              $v_{sat}$ & Saturation voltage of transistor & V \\ \hline
+              $\theta$ & Conduction angle & Radians\\ \hline
+              
+            \end{tabular}
+        \end{center}
+\end{table}
 
 
 \begin{equation}\label{eq:cond_eff}
-  \eta = \frac{v_{dd} - v_{sat}}{v_{dd}} \frac{\theta - sin\theta}{4(sin\frac{\theta}{2} - \frac{\theta}{2} cos\frac{\theta}{2}) }
+  \eta_{Drain}, \% = \frac{v_{dd} - v_{sat}}{v_{dd}} \frac{\theta - sin\theta}{4(sin\frac{\theta}{2} - \frac{\theta}{2} cos\frac{\theta}{2}) }
 \end{equation}
 
 \begin{equation}\label{eq:cond_pout}
@@ -96,21 +118,23 @@ The bias point power amplifiers can be generalized to a power amplifier with var
 \end{equation}
 
 \begin{equation}\label{eq:opt_load}
-  R_{opt} = \frac{V_{DC}}{I_{Fundemetnal}}
+  R_{opt} = \frac{v_{dd}-v_{knee}}{I_{Fundemetnal}}
 \end{equation}
 
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
   \includegraphics[width=6in]{figures/classes/bias_current_harmonic}\\
-  \caption{Normalized Current Harmonic Amplitude versus Conduction Angle \cite{C.Cripps2006}}\label{fig:bias_current_harmonic}
+  \caption{Normalized Current Harmonic Amplitude versus Conduction Angle \cite{C.Cripps2006}}
+  \label{fig:bias_current_harmonic}
 \end{figure}
 
 \begin{figure}
   \centering
   % Requires \usepackage{graphicx}
   \includegraphics[width=6in]{figures/classes/bias_power_eff}\\
-  \caption{RF Power (relative to Class A) and Efficiency versus Conduction Angle \cite{C.Cripps2006}}\label{fig:bias_power_eff}
+  \caption{RF Power (relative to Class A) and Efficiency versus Conduction Angle \cite{C.Cripps2006}}
+  \label{fig:bias_power_eff}
 \end{figure}
 
 \section{Switching Amplifier}
