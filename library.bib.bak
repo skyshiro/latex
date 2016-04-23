@@ -1,3 +1,10 @@
+\usepackage[citecounter=true]{biblatex}
+
+\renewcommand{\finentrypunct}{%
+  \addperiod\space
+  (Cited \arabic{citecounter}~time\ifnumequal{\value{citecounter}}{1}{}{s})%
+}
+
 @book{C.Cripps2006,
 author = {{C. Cripps}, Steve},
 booktitle = {Zhurnal Eksperimental'noi i Teoreticheskoi Fiziki},
@@ -14,8 +21,8 @@ year = {2006}
 }
 @article{Colantonio2001,
 abstract = {Multiharmonic manipulation is presented as the most effective solution to improve power amplifier (PA) efficiency performances. Remarkable improvements in output power, power gain and power-added efficiency (PAE) are demonstrated, properly manipulating the input and output second and third harmonics, as compared to more classical design approaches. Experimental results at 5GHz confirm the feasibility, the validity and effectiveness of the proposed approach, increasing the maximum measured power-added efficiency from 39{\%} to 61{\%}   {\textcopyright} 2001 John Wiley {\&} Sons, Inc. Int J RF and Microwave CAE 11: 366-384, 2001},
-annote = {o   Proper load pull should vary harmonic load together with fundamental one to find global optimum
-{\S}  Eqn 17
+annote = {o   Proper load pull should vary harmonic load together with fundamental one to find global optimum 
+{\S}  Eqn 17 
 o   Class FG – Terminate second and third harmonics at the same time vs just terminating odd harmonics in Class F},
 author = {Colantonio, Paolo and Giannini, Franco and Leuzzi, Giorgio and Limiti, Ernesto},
 doi = {10.1002/mmce.1045},
@@ -44,19 +51,19 @@ year = {2003}
 }
 @article{Colantonio1998,
 abstract = {Power-amplifier class-F operation is investigated and revised, evidencing the fundamental importance of the harmonic-generating mechanism and the limitations im- posed by the device input and output nonlinearities on the ideal class-F behavior. Closed- form expressions are derived for the major design quantities, together with the optimum fundamental and third-harmonic loading of the active device. A design procedure, making use of the derived expressions, is presented and the deviations from the ideal behavior are discussed. Sample designs, making use of a full nonlinear device model and commercial analysis software, are carried out to demonstrate the effectiveness of the analysis and the design procedure. It is shown, both analytically and using commercial nonlinear simula- tions, that blind application of commonly used, idealized class-F harmonic terminations can cause unexpected detrimental results.},
-annote = {o   Class F definition: terminating the device [amplifier] output with open circuit terminations at odd harmonic frequencies of the fundamental component and short circuiting it at even harmonics
-o   With large signal drive, the inputs are no longer purely sinusoidal and have harmonic content
-{\S}  Generation of harmonics is due to clipping from the forward conduction of the gate to pinch off of conduction
-{\S}  Harmonic termination – tuned load if every harmonic component is loaded by an ideal short circuit termination
-{\textperiodcentered}        Values of harmonic terminations for odd components [2,17,18]
-o   Snider [2] – optimally loaded and overdriven PA to derive the correct termination at haromincs
-o   Output device capacitance will eventually short out high order harmonics
-o   Alpha is the conduction angle of the amplifier
-o   optimum operation of class-F amplifiers [7-9] and indicate some useful guidelines for optimum design [10-12]
-o   Fifth harmonic peaking in [5,6]
-o   3rd harmonic must be out of phase with fundamental in order for ideal square wave nature. If in phase, will result in non ideal waveform. Bias must be between B and AB (deep AB)
-{\S}  Class B bias cannot be used for practical class F
-{\S}  Open termination for odd harmonics is only a mathematical result and doesn't explain mechanism for generating the odd harmonics
+annote = {o   Class F definition: terminating the device [amplifier] output with open circuit terminations at odd harmonic frequencies of the fundamental component and short circuiting it at even harmonics 
+o   With large signal drive, the inputs are no longer purely sinusoidal and have harmonic content 
+{\S}  Generation of harmonics is due to clipping from the forward conduction of the gate to pinch off of conduction 
+{\S}  Harmonic termination – tuned load if every harmonic component is loaded by an ideal short circuit termination 
+{\textperiodcentered}        Values of harmonic terminations for odd components [2,17,18] 
+o   Snider [2] – optimally loaded and overdriven PA to derive the correct termination at haromincs 
+o   Output device capacitance will eventually short out high order harmonics 
+o   Alpha is the conduction angle of the amplifier 
+o   optimum operation of class-F amplifiers [7-9] and indicate some useful guidelines for optimum design [10-12] 
+o   Fifth harmonic peaking in [5,6] 
+o   3rd harmonic must be out of phase with fundamental in order for ideal square wave nature. If in phase, will result in non ideal waveform. Bias must be between B and AB (deep AB) 
+{\S}  Class B bias cannot be used for practical class F 
+{\S}  Open termination for odd harmonics is only a mathematical result and doesn't explain mechanism for generating the odd harmonics 
 {\S}  Closed form equations and all that jazz!},
 author = {Colantonio, Paolo and Giannini, Franco and Leuzzi, Giorgio and Limiti, Ernesto and Elettronica, Ingegneria and Vergata, Tor},
 file = {:X$\backslash$:/Google Drive/Thesis/PA/Papers/class f/Colantonio - On the Class-F Power Amplifier Design.pdf:pdf},
@@ -69,20 +76,20 @@ year = {1998}
 }
 @article{Gao2006,
 abstract = {This article provides a tutorial and review of recent developments in high-efficiency class F RF/ microwave PAs. The principles of class-F RF PAs are explained first. Recent progress in their theory and in design techniques is then presented. Different approaches of class-F PA designs are explained, and some examples of practical designs are illustrated. Finally, an attempt is made to discuss the future developments of class-F RF/microwave PAs.},
-annote = {{\textperiodcentered}        Cds of transistor will short out higher order harmonics
-o   Quantify?
-o   Should take in account output Cds in matching network
-{\textperiodcentered}        Non linear Cgs will distort signal
-o   Shunt diode on gate to compensate [21]
-{\S}  Jeon - Input harmonics control using non-linear capacitor in GaAs FET power amplifier
-{\textperiodcentered}        Matching networks for the input of the transistor will affect performance!
-{\textperiodcentered}        2 stage amplifier
-o   First stage provides enough input power for second stage and shapes input voltage waveform to half sinusoid for second stage [23]
-{\S}  Ingruber - High-efficiency harmonic-control amplifier
-o   Could use first stage inverse F and second stage standard F
-{\textperiodcentered}        Closed form equations for relating input harmonic terminations for generating in phase output harmonics [27]-[29]
-o   Colantonio et al
-{\textperiodcentered}        Quarter wavelength matching network with LC tank on output will result in open for odd and short for even harmonics
+annote = {{\textperiodcentered}        Cds of transistor will short out higher order harmonics 
+o   Quantify? 
+o   Should take in account output Cds in matching network 
+{\textperiodcentered}        Non linear Cgs will distort signal 
+o   Shunt diode on gate to compensate [21] 
+{\S}  Jeon - Input harmonics control using non-linear capacitor in GaAs FET power amplifier 
+{\textperiodcentered}        Matching networks for the input of the transistor will affect performance! 
+{\textperiodcentered}        2 stage amplifier 
+o   First stage provides enough input power for second stage and shapes input voltage waveform to half sinusoid for second stage [23] 
+{\S}  Ingruber - High-efficiency harmonic-control amplifier 
+o   Could use first stage inverse F and second stage standard F 
+{\textperiodcentered}        Closed form equations for relating input harmonic terminations for generating in phase output harmonics [27]-[29] 
+o   Colantonio et al 
+{\textperiodcentered}        Quarter wavelength matching network with LC tank on output will result in open for odd and short for even harmonics 
 o   Raab – Introduction of Class F amplifiers},
 author = {Gao, S.},
 doi = {10.1109/MMW.2006.1614233},

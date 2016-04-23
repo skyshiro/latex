@@ -1,0 +1,21 @@
+\chapter{Abstract and IEEE Design Competition Rules}
+
+This thesis talks about the design and implementation of a class F amplifier for the International Microwave Symposium (IMS) 2016 High Efficiency Power Amplifier Student Design competition. The competition focuses on maximizing the power added efficiency (PAE) and operating frequency of the amplifier over a wide range of input powers. Power added efficiency is defined as the difference of output RF power and RF input power over the DC bias power seen in Equation \ref{eq:pae}. PAE is an important metric for power amplifiers to show how efficient the amplifier is converting the DC power into RF power.
+
+\begin{equation}\label{eq:pae}
+  PAE,\% = \frac{RF\;Power_{out} - RF\\Power_{in}}{DC\;Power}
+\end{equation}
+
+To qualify for the design competition the amplifier must output at least 36 dBm (4 Watts) with less than 24 dBm input power for a single carrier and less than 22 dBm per tone for two carriers spaced 5 MHz apart. Also the amplifier must have a carrier-to-intermodulation ratio (C/I), defined as the ratio in dB between the amplitude of either carrier and highest intermodulation product, greater than 30 dB at an input power of 0 dBm.
+
+The rules for the amplifier require the amplifier have a center frequency between 1 GHz and 10 GHz. The RF ports should use SMA female connectors, and the bias connections should use banana plugs with a maximum of two DC supply voltages. The source and load impedance of your amplifier should be matched to 50 $\Omega$. The amplifier can use any technology but must be the result of new design and fabrication methods. The amplifier PAE will be measured with at the first RF output power when the C/I ratio drops below 30 dB. The winning amplifier will have the highest figure of merit seen in Equation \ref{eq:fom}.
+
+\begin{equation}\label{eq:fom}
+  Figure of Merit = PAE*(Center Frequency, GHz)^{0.25}
+\end{equation}
+
+A table of past competition winners can be seen in Table X. The highest scores in the competition have all been from class F amplifiers with a center frequency around 3 GHz CHECK THIS STATEMENT. The class F amplifier was chosen for the design due to highest PAE compared to other amplifier classes. This thesis explores coupling the harmonic matching networks to reduce the electrical size of the amplifier using a gallium nitride (GaN) high electron mobility (HEMT) tranistor from Wolfspeed.
+
+Class f because ideally highest efficiency over other operating classes. Challenge was keeping C/I ratio at 30 dB at high input powers
+
+Insert past contest winners table and their score? It would be content and give context

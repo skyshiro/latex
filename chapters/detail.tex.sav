@@ -1,0 +1,30 @@
+﻿\chapter{Class F Detailed Description }
+
+The class F amplifier is able to achieve high efficiency through the use of harmonic trapping to ideally create a square waveform for the drain current and a half sinusoid waveform the for the drain voltage that don't overlap so power is consumed. It's theoretically capable of 100\% drain efficiency but in practice only a finite amount of harmonics can be matched, so the efficiency in the real world is around 80\% to 90\%. Through Fourier series analysis it can be shown that by loading the drain so that odd harmonics see an open circuit and even harmonics see a short circuit, the ideal current and voltage waveforms conditions will arise \cite{Gao2006}. The class F amplifier also has a counterpart, the class F^-1 in which the current and voltage waveforms are opposite so that ideally the voltage waveform is a square wave and the current is a half sinusoid which will be discussed later in this chapter \cite{Moon2012}.
+
+\section{Fourier Analysis}
+
+To begin the analysis of the class F amplifier and how it uses harmonics at the drain to increase efficiency, it would be useful to talk about how the harmonics are generated in the first place. With large signal power amplifiers, the assumption that the drain current and voltage waveforms are purely sinusoidal is not longer true and the presence of harmonics must be taken into account. The source of the harmonics in power amplifiers attributed to clipping in the transistor when 
+
+Ideally if all harmonics of the fundamental could be controlled, the amplifier would be 100\% efficient. This allows for ZVS and ZVDS conditions to arise which allow for ideally 100\% efficiency.
+
+Source of harmonic generation at first seems to be out of nowhere. The dependent current source model does not explain why harmonics would be generated in the first place. In reality, the knee voltage of the transistor is the source of the harmonics.
+
+Need to control phase and amplitude of various harmonics to increase efficiency.
+
+Harmonic generation
+
+Bust out some fourier analysis of the waveforms
+
+Talk about how how the phase is important as well, theory shows that controlling the amplitudes is good but also the phase. 
+
+\section{Practical Considerations}
+Talk about limitations of harmonic matching and maximum efficiency for number of harmonics
+
+Third harmonic peaking
+
+Majority of designs just use control up to the third harmonic due to drain capacitance removing effectiveness of higher harmonics
+
+Harmonic matching networks don't have closed form solutions. Many of the published solutions have an intuitive wavelength matching, but the impedances of the transmission lines are arrived by doing a combination of load pull and source pull of the transistor at each harmonic and optimizing the impedances for gain or efficiency. Class F amplifier is a narrow band amplifier due to the matching requirements 
+
+Also experimentally that having harmonic matching networks at the input is also needed to increase efficiency 

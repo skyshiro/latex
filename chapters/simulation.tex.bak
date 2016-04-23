@@ -1,1 +1,37 @@
-\chapter{Class F Amplifier ADS Simulations, Comparisons to Specs} 
+\chapter{Class F Amplifier ADS Simulations, Comparisons to Specs}
+
+The initial goal of the class F amplifier design was to try and control up the fifth harmonic which would ideally allow 90.5\% drain efficiency. After looking through the past amplifier competitions and looking at various RF transistor manufacturers, the Wolfspeed CGHV1F006S GaN HEMT transistor was chosen. This model was chosen over others to the relatively new release of the transistor, the high operating frequency of the transistor (18 GHz), and the fact that the transistor came in a QFP package versus a semiconductor die. The majority of past winners of the amplifier competition used Cree (now Wolfspeed) transistors and Wolfspeed provides a transistor level models for the amplifier for accurate simulations to design amplifiers.
+
+Talk about DC bias
+The simulation of the various parts of the class F amplifier was done using Keysight ADS 2016. The first step in the simulation process was determining the optimal DC bias. Using the provided transistor model from Wolfspeed, various drain and gate voltages were simulated to see what the drain current and transducer gain CHECK THIS STATEMENT the transistor would have. The bias for the class F amplifier should be in the "deep" AB region so the drain current resembles a half sinusoid shape but still allows for the negative third harmonic to be present. The drain current should be minimized in order to maximize the PAE of the amplifier. The competition rule states the amplifier should have a minimum of 36 dBm output power at a maximum of 24 dBm input power resulting in a minimum gain of 12 dBm. For the final amplifier, the target gain was 16 dB CHECK THIS STATEMENT so there would be a margin for various effects that wouldn't be able to be taken into account in the simulation like the fabrication process.
+
+%Plot of Ids vs Vds and maximum transducer gain
+
+%Talk about simulation results
+
+Talk about fundamental load and source pull
+After determining the DC bias of the amplifier, fundamental load and source pulls are done to determine the optimal load and source impedances for the transistor. Load pulls are done keeping the source impedance fixed and sweeping the load over a uniformly sampled space on the Smith Chart to then measuring the transducer gain. Various drain efficiency and gain contours can be produced by doing load pulls. The typical process starts with sampling the entire Smith Chart then load pulling again around the region with the highest efficiency contour. As a starting point the source impedance was set to a low value of 10$\Omega$. Source pulling is done after load pulling and follows a similar process by keeping the load impedance fixed then sweeping the source impedance for the highest efficiency while still having the target gain. The load and source pulls are done at the fundamental frequency at an input power of 15 dBm to provide an additional margin.
+
+Talk about RF input power used and why its low as a margin. For maximum PAE, the RF input power should be at the highest and produce the minimum output power. But for the C/I
+
+%Plots of load pull with efficiency and gain contours
+%Plots of source pull with same as above
+
+%Talk about simulation results
+
+Harmonic phase pull
+The load and source pulls are done at the fundamental frequency while the harmonic phase pulls are done at the higher harmonics. A phase pull is analogous to a load and source pull, but instead of sampling an area of the Smith Chart the phase pull samples a constant gamma value over a range of phase angles. For the class F amplifier the gamma value should be close one because the odd and even harmonics should see a open and short at the drain respectively CHECK THIS STATEMENT. The harmonic phase pull is done at the lowest harmonic from load to source then to the highest harmonic. The harmonic phase pull is done at the input and output because it's been shown experimentally that harmonic matching networks at the input can also increase the drain efficiency INSERT REFERENCE HERE. The harmonic phase pull can measure gain and efficiency contours just like the load and source pulls. The end result of all the various pull simulations is the ideal gain and efficiency of the amplifier in class F operation if the harmonics are ideally terminated. The process of determining a DC bias, fundamental load and source pull, and harmonic phase pulls is repeated until the requirements are met. Table X shows the iteration steps and amplifier performance. Initially the goal was to control up to the fifth harmonic to hopefully increase the efficiency near the theoretical value of 90.5\% CHECK THIS VALUE. But this the transistor used there weren't any sufficient gains from controlling up to the third harmonic versus controlling up to the fifth harmonic so it was decided only up to the third harmonic will be controlled.
+
+%Harmonic phase pull with contours
+
+Harmonic matching network
+The harmonic matching network is the key in keeping the proper harmonics at the drain. It is composed of a matching network and a wave shaping network that is on the load and source side of the transistor. The wave shaping network consists of a series section that is a quarter wavelength long with an eight wavelength open shunt stub. Most class F wave shaping network follow a similar pattern of various fractional wavelength sections so the drain is properly terminated. The downside of these networks is the relatively large electrical lengths due to the presence of a quarter wavelength sections in nearly all such networks. This is especially cumbersome below X band and fix this statement. This design explores if coupling the open circuit shunt stubs in the wave shaping network can decrease the electrical size of the class F amplifier.
+
+%Insert figure of matching network and wave shaping network
+
+After the wave shaping network comes the matching network so the amplifier is matched as close as possible to 50$\Omega$. This amplifier used a shunt stub and a series transmission line for the matching
+
+Need to do two tone tests and stability tests for the amplifier! More content! 
+
+Talk about simulated amplifier
+The transmission lines were simulated using Rogers INSERT NUMBER HERE. After comparing various low loss laminates like Duroid, the Rogers NUMBER HERE was selected. This was partially due to the larger sample size that could be ordered so more amplifier boards could be fabricated. Also it has the lowest tangent loss and relative permittivity that allowed the transmission lines going to the transistor gate and drain to be thin enough. Reword all of this later man. All of the amplifier dimensions were set as parameters with goals to maximize the PAE with a minimum set gain at a fixed RF input power and the optimizer was used to tune the amplifier dimensions.   

@@ -4,7 +4,7 @@
 \usepackage[morefloats=125]{morefloats}
 \usepackage[hyphens]{url}
 \usepackage[breaklinks=true]{hyperref}
-\usepackage{subfig}
+
 \usepackage{graphicx}
 \usepackage{tabularx}
 \usepackage{amssymb}
@@ -22,6 +22,12 @@
 \usepackage[titletoc]{appendix}
 \usepackage{cleveref}
 \usepackage[]{algorithm2e}
+\usepackage{amsmath}
+
+\usepackage{subfigure}
+
+%\usepackage{caption}
+%\usepackage{subcaption}
 
 % Sets line spacing to double
 % \linespread{1.6}
@@ -57,36 +63,47 @@
 \crefname{app}{appendix}{appendices}
 \Crefname{app}{Appendix}{Appendices}
 
+\widowpenalty10000
+\clubpenalty10000
+
 \begin{document}
 
+%COMMENT BELOW TO OUTPUT WORKING DRAFT
+%COMMENT BELOW TO OUTPUT WORKING DRAFT
+%COMMENT BELOW TO OUTPUT WORKING DRAFT
+
 %% Declarations for Front Matter
-%\input{frontmatter}
-%
-%\maketitle
-%
-%\begin{frontmatter}
-%
-%% Custom made for Cal Poly (by Mark Barry, modified by Andrew Tsui).
-%\copyrightpage
-%
-%% Custom made for Cal Poly (by Andrew Tsui).
-%\committeemembershippage
-%
-%\begin{abstract}
-%\input{abstract}
-%\end{abstract}
-%
-%\begin{acknowledgements}
-%\input{acknowledgements}
-%\end{acknowledgements}
-%
-%\tableofcontents
-%
-%\listoftables
-%
-%\listoffigures
-%
-%\end{frontmatter}
+\input{frontmatter}
+
+\maketitle
+
+\begin{frontmatter}
+
+% Custom made for Cal Poly (by Mark Barry, modified by Andrew Tsui).
+\copyrightpage
+
+% Custom made for Cal Poly (by Andrew Tsui).
+\committeemembershippage
+
+\begin{abstract}
+\input{abstract}
+\end{abstract}
+
+\begin{acknowledgements}
+\input{acknowledgements}
+\end{acknowledgements}
+
+\tableofcontents
+
+\listoftables
+
+\listoffigures
+
+\end{frontmatter}
+
+%END COMMENT
+%END COMMENT
+%END COMMENT
 
 \pagestyle{plain}
 \renewcommand{\baselinestretch}{1.66}

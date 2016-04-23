@@ -57,6 +57,12 @@ A.~Inoue, A.~Ohta, S.~Goto, T.~Ishikawa, and Y.~Matsuda.
 \newblock {\em IEEE MTT-S International Microwave Symposium Digest},
   3:1947--1950, 2004.
 
+\bibitem{Kee2003a}
+S.~Kee, I.~Aoki, A.~Hajimiri, and D.~Rutledge.
+\newblock {The Class E / F Family of ZVS Switching Amplifiers}.
+\newblock {\em IEEE Transactions on Microwave Theory and Techniques},
+  51(6):1677--1690, 2003.
+
 \bibitem{Kee2003}
 S.~D. Kee, I.~Aoki, A.~Hajimiri, and D.~Rutledge.
 \newblock {The class-E/F family of ZVS switching amplifiers}.
@@ -94,6 +100,13 @@ J.~Moon, S.~Jee, J.~Kim, J.~Kim, and B.~Kim.
 \newblock {Behaviors of class-F and Class-F -1 Amplifiers}.
 \newblock {\em IEEE Transactions on Microwave Theory and Techniques}, 60(6 PART
   2):1937--1951, 2012.
+
+\bibitem{Microwave2000}
+{N. O. Sokal}.
+\newblock {Class-E switching-mode high-efficiency tuned RF/microwave power
+  amplifier: improved design equations}.
+\newblock {\em Microwave Symposium Digest. 2000 IEEE MTT-S International},
+  2:779--782, 2000.
 
 \bibitem{Nikandish2014}
 G.~Nikandish, E.~Babakrpur, and A.~Medi.
@@ -165,6 +178,12 @@ I.~Rosu.
 A.~Rudiakova and V.~Krizhanovski.
 \newblock {\em {Advanced Design Techniques for Rf Power Amplifiers}}.
 \newblock 2006.
+
+\bibitem{Sokal1975}
+N.~Sokal and A.~Sokal.
+\newblock {Class E-A new class of high-efficiency tuned single-ended switching
+  power amplifiers}.
+\newblock {\em IEEE Journal of Solid-State Circuits}, 10(3):168--176, 1975.
 
 \bibitem{Tsang2010}
 K.~S. Tsang.

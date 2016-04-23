@@ -1,7 +1,7 @@
 This is BibTeX, Version 0.99dThe top-level auxiliary file: main.aux
 The style file: abbrv.bst
-A level-1 auxiliary file: chapters/classes.aux
-Illegal, another \bibstyle command---line 59 of file main.aux
+A level-1 auxiliary file: chapters/detail.aux
+Illegal, another \bibstyle command---line 62 of file main.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
