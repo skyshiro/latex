@@ -1,0 +1,5 @@
+load pull: zl = 29.5+j*46.2
+
+source pull: 9-j*0
+
+2nd load: 1+j*38
