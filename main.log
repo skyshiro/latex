@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.14)  29 APR 2016 14:19
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.12.14)  25 MAY 2016 09:54
 entering extended mode
 **"C:/Users/Tannis/Google Drive/Thesis/PA/Writing/thesis/main.tex"
 ("C:/Users/Tannis/Google Drive/Thesis/PA/Writing/thesis/main.tex"
@@ -632,7 +632,8 @@ Writing index file main.idx
 \openout5 = `main.glo'.
 
 Package glossaries Info: Writing glossary file main.glo on input line 36.
-(main.aux (chapters/simulation.aux))
+(main.aux (chapters/intro.aux) (chapters/classes.aux) (chapters/detail.aux)
+(chapters/simulation.aux) (chapters/test.aux) (chapters/conclusion.aux))
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
@@ -719,302 +720,779 @@ LaTeX Info: Redefining \nameref on input line 69.
 
 \c@lstlisting=\count173
 (chapter-outline.tex
-\openout2 = `chapters/simulation.aux'.
+\openout2 = `chapters/intro.aux'.
 
- (chapters/simulation.tex
+ (chapters/intro.tex
 Chapter 1.
-[1
+LaTeX Font Info:    Try loading font information for U+msa on input line 6.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 6.
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
 
 \openout4 = `main.ist'.
 
 
 
-{C:/Users/Tannis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for U+msa on input line 13.
+{C:/Users/Tannis/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2]) [3pdf
+TeX warning (ext4): destination with the same identifier (name{table.1.1}) has 
+been already used, duplicate ignored
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 13.
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.1 \include{chapters/intro}
+                            ]
+\openout2 = `chapters/classes.aux'.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2pdfTeX warning (ext4): destination with the same identifier (name{table.1.1
+ (chapters/classes.tex
+Chapter 2.
+[4
+
+
+
+] <figures/classes/classa.png, id=143, 685.05937pt x 323.2075pt>
+File: figures/classes/classa.png Graphic file (type png)
+
+<use figures/classes/classa.png>
+Package pdftex.def Info: figures/classes/classa.png used on input line 29.
+(pdftex.def)             Requested size: 433.62pt x 204.58348pt.
+ [5]
+<figures/classes/classb_bias.png, id=156, 617.30624pt x 343.78438pt>
+File: figures/classes/classb_bias.png Graphic file (type png)
+
+<use figures/classes/classb_bias.png>
+Package pdftex.def Info: figures/classes/classb_bias.png used on input line 47.
+
+(pdftex.def)             Requested size: 433.62pt x 241.49197pt.
+ [6pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1
 }) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.42 
-     ] <figures/simulation/bias_ckt.png, id=53, 556.479pt x 408.3255pt>
+l.49 \end{figure}
+                  <./figures/classes/classa.png>]
+<figures/classes/classab_bias.png, id=170, 910.602pt x 454.69875pt>
+File: figures/classes/classab_bias.png Graphic file (type png)
+
+<use figures/classes/classab_bias.png>
+Package pdftex.def Info: figures/classes/classab_bias.png used on input line 61
+.
+(pdftex.def)             Requested size: 433.62pt x 216.51837pt.
+ [7pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.63 \end{figure}
+                  <./figures/classes/classb_bias.png>]
+<figures/classes/classc_bias.png, id=183, 917.829pt x 496.85625pt>
+File: figures/classes/classc_bias.png Graphic file (type png)
+
+<use figures/classes/classc_bias.png>
+Package pdftex.def Info: figures/classes/classc_bias.png used on input line 72.
+
+(pdftex.def)             Requested size: 433.62pt x 234.73549pt.
+ [8pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.77 
+      <./figures/classes/classab_bias.png>] [9pdfTeX warning (ext4): destinatio
+n with the same identifier (name{figure.2.4}) has been already used, duplicate 
+ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.81 
+      <./figures/classes/classc_bias.png>] [10pdfTeX warning (ext4): destinatio
+n with the same identifier (name{table.2.1}) has been already used, duplicate i
+gnored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.118 \end{equation}
+                    ]
+<figures/classes/bias_current_harmonic.png, id=224, 580.1675pt x 459.21562pt>
+File: figures/classes/bias_current_harmonic.png Graphic file (type png)
+
+<use figures/classes/bias_current_harmonic.png>
+Package pdftex.def Info: figures/classes/bias_current_harmonic.png used on inpu
+t line 123.
+(pdftex.def)             Requested size: 289.08267pt x 228.81544pt.
+
+<figures/classes/bias_power_eff.png, id=227, 680.5425pt x 495.0495pt>
+File: figures/classes/bias_power_eff.png Graphic file (type png)
+
+<use figures/classes/bias_power_eff.png>
+Package pdftex.def Info: figures/classes/bias_power_eff.png used on input line 
+131.
+(pdftex.def)             Requested size: 289.07616pt x 210.2837pt.
+
+<figures/classes/basic_switch.png, id=231, 280.6485pt x 278.2395pt>
+File: figures/classes/basic_switch.png Graphic file (type png)
+
+<use figures/classes/basic_switch.png>
+Package pdftex.def Info: figures/classes/basic_switch.png used on input line 14
+1.
+(pdftex.def)             Requested size: 216.81pt x 214.95409pt.
+
+<figures/classes/basic_switch_waveform.png, id=232, 508.90125pt x 454.69875pt>
+File: figures/classes/basic_switch_waveform.png Graphic file (type png)
+
+<use figures/classes/basic_switch_waveform.png>
+Package pdftex.def Info: figures/classes/basic_switch_waveform.png used on inpu
+t line 142.
+(pdftex.def)             Requested size: 216.81pt x 193.71967pt.
+
+Overfull \hbox (2.61107pt too wide) in paragraph at lines 141--143
+[][] [][]
+ []
+
+[11pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.149 
+       <./figures/classes/bias_current_harmonic.png>] [12pdfTeX warning (ext4):
+ destination with the same identifier (name{figure.2.6}) has been already used,
+ duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.149 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+2.7}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.149 
+       <./figures/classes/bias_power_eff.png> <./figures/classes/basic_switch.p
+ng> <./figures/classes/basic_switch_waveform.png>]
+<figures/classes/classd_ckt.png, id=253, 522.753pt x 294.50024pt>
+File: figures/classes/classd_ckt.png Graphic file (type png)
+
+<use figures/classes/classd_ckt.png>
+Package pdftex.def Info: figures/classes/classd_ckt.png used on input line 151.
+
+(pdftex.def)             Requested size: 216.81pt x 122.13892pt.
+
+<figures/classes/classd_wave.png, id=254, 435.42674pt x 642.60075pt>
+File: figures/classes/classd_wave.png Graphic file (type png)
+
+<use figures/classes/classd_wave.png>
+Package pdftex.def Info: figures/classes/classd_wave.png used on input line 152
+.
+(pdftex.def)             Requested size: 146.907pt x 216.80466pt.
+ [13pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.160 
+       <./figures/classes/classd_ckt.png> <./figures/classes/classd_wave.png>]
+<figures/classes/classe_ckt.png, id=274, 499.8675pt x 352.9185pt>
+File: figures/classes/classe_ckt.png Graphic file (type png)
+
+<use figures/classes/classe_ckt.png>
+Package pdftex.def Info: figures/classes/classe_ckt.png used on input line 164.
+
+(pdftex.def)             Requested size: 216.81pt x 153.07133pt.
+
+<figures/classes/classe_wave2.png, id=275, 445.06274pt x 499.26524pt>
+File: figures/classes/classe_wave2.png Graphic file (type png)
+
+<use figures/classes/classe_wave2.png>
+Package pdftex.def Info: figures/classes/classe_wave2.png used on input line 16
+5.
+(pdftex.def)             Requested size: 193.27475pt x 216.81296pt.
+ [14pdfTeX warning (ext4): destination with the same identifier (name{figure.2.
+9}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.173 
+       <./figures/classes/classe_ckt.png> <./figures/classes/classe_wave2.png>]
+) [15]
+\openout2 = `chapters/detail.aux'.
+
+ (chapters/detail.tex
+Missing character: There is no ï in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+ [16
+
+
+]
+Chapter 3.
+[17
+
+] <figures/detail/knee_harmonics.png, id=304, 577.15625pt x 200.75pt>
+File: figures/detail/knee_harmonics.png Graphic file (type png)
+
+<use figures/detail/knee_harmonics.png>
+Package pdftex.def Info: figures/detail/knee_harmonics.png used on input line 1
+2.
+(pdftex.def)             Requested size: 433.6411pt x 150.83168pt.
+ [18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.31 
+      <./figures/detail/knee_harmonics.png>]
+Overfull \hbox (22.38956pt too wide) in paragraph at lines 38--58
+ [][] 
+ []
+
+[19pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
+) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.65 
+     ] <figures/detail/classf_wave.png, id=335, 334.24875pt x 409.02812pt>
+File: figures/detail/classf_wave.png Graphic file (type png)
+
+<use figures/detail/classf_wave.png>
+Package pdftex.def Info: figures/detail/classf_wave.png used on input line 69.
+(pdftex.def)             Requested size: 236.24211pt x 289.09508pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.79 
+      <./figures/detail/classf_wave.png>] [21pdfTeX warning (ext4): destination
+ with the same identifier (name{table.3.2}) has been already used, duplicate ig
+nored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.127 
+      ]
+<figures/detail/third_harmonic_phase.png, id=358, 831.105pt x 314.17375pt>
+File: figures/detail/third_harmonic_phase.png Graphic file (type png)
+
+<use figures/detail/third_harmonic_phase.png>
+Package pdftex.def Info: figures/detail/third_harmonic_phase.png used on input 
+line 131.
+(pdftex.def)             Requested size: 361.3502pt x 136.59735pt.
+ [22pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.138 
+       <./figures/detail/third_harmonic_phase.png>]
+<figures/detail/quarter_wave_match.png, id=372, 469.25313pt x 309.65688pt>
+File: figures/detail/quarter_wave_match.png Graphic file (type png)
+
+<use figures/detail/quarter_wave_match.png>
+Package pdftex.def Info: figures/detail/quarter_wave_match.png used on input li
+ne 146.
+(pdftex.def)             Requested size: 289.07942pt x 190.7615pt.
+) [23] [24pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.3.4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.5 \include{chapters/detail}
+                              <./figures/detail/quarter_wave_match.png>]
+\openout2 = `chapters/simulation.aux'.
+
+
+(chapters/simulation.tex
+Chapter 4.
+[25
+
+
+
+]
+LaTeX Font Info:    Try loading font information for OML+cmr on input line 19.
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omlcmr.fd"
+File: omlcmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OML/cmr/m/n' in size <12> not available
+(Font)              Font shape `OML/cmm/m/it' tried instead on input line 19.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{table.4.1
+}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.27 
+     ] <figures/simulation/bias_ckt.png, id=405, 556.479pt x 408.3255pt>
 File: figures/simulation/bias_ckt.png Graphic file (type png)
 
 <use figures/simulation/bias_ckt.png>
-Package pdftex.def Info: figures/simulation/bias_ckt.png used on input line 48.
+Package pdftex.def Info: figures/simulation/bias_ckt.png used on input line 52.
 
 (pdftex.def)             Requested size: 433.61882pt x 318.17484pt.
 
-<figures/simulation/ids_versus_vds.png, id=54, 556.479pt x 285.4665pt>
+<figures/simulation/ids_versus_vds.png, id=406, 556.479pt x 285.4665pt>
 File: figures/simulation/ids_versus_vds.png Graphic file (type png)
 
 <use figures/simulation/ids_versus_vds.png>
 Package pdftex.def Info: figures/simulation/ids_versus_vds.png used on input li
-ne 57.
+ne 61.
 (pdftex.def)             Requested size: 361.35043pt x 185.36807pt.
 
-<figures/simulation/stab_fact.png, id=55, 706.64pt x 465.23813pt>
+<figures/simulation/stab_fact.png, id=407, 706.64pt x 465.23813pt>
 File: figures/simulation/stab_fact.png Graphic file (type png)
 
 <use figures/simulation/stab_fact.png>
-Package pdftex.def Info: figures/simulation/stab_fact.png used on input line 65
+Package pdftex.def Info: figures/simulation/stab_fact.png used on input line 69
 .
 (pdftex.def)             Requested size: 361.35205pt x 237.90721pt.
 
-<figures/simulation/stab_meas.png, id=56, 706.64pt x 465.74pt>
+<figures/simulation/stab_meas.png, id=408, 706.64pt x 465.74pt>
 File: figures/simulation/stab_meas.png Graphic file (type png)
 
 <use figures/simulation/stab_meas.png>
-Package pdftex.def Info: figures/simulation/stab_meas.png used on input line 73
+Package pdftex.def Info: figures/simulation/stab_meas.png used on input line 77
 .
 (pdftex.def)             Requested size: 361.35205pt x 238.16385pt.
 
-<figures/simulation/load_stab.png, id=57, 706.64pt x 711.15688pt>
+<figures/simulation/load_stab.png, id=409, 706.64pt x 711.15688pt>
 File: figures/simulation/load_stab.png Graphic file (type png)
 
 <use figures/simulation/load_stab.png>
-Package pdftex.def Info: figures/simulation/load_stab.png used on input line 81
+Package pdftex.def Info: figures/simulation/load_stab.png used on input line 85
 .
 (pdftex.def)             Requested size: 287.2551pt x 289.09123pt.
 
-<figures/simulation/source_stab.png, id=58, 706.64pt x 711.15688pt>
+<figures/simulation/source_stab.png, id=410, 706.64pt x 711.15688pt>
 File: figures/simulation/source_stab.png Graphic file (type png)
 
 <use figures/simulation/source_stab.png>
 Package pdftex.def Info: figures/simulation/source_stab.png used on input line 
-89.
+93.
 (pdftex.def)             Requested size: 287.2551pt x 289.09123pt.
 
 
-LaTeX Warning: Float too large for page by 20.75246pt on input line 92.
+LaTeX Warning: Float too large for page by 20.75246pt on input line 96.
 
-[3pdfTeX warning (ext4): destination with the same identifier (name{table.1.2})
- has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.101 
-      ] [4pdfTeX warning (ext4): destination with the same identifier (name{fig
-ure.1.1}) has been already used, duplicate ignored
+[27pdfTeX warning (ext4): destination with the same identifier (name{table.4.2}
+) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
+      ] [28pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.4.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.103 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.2}) has been already used, duplicate ignored
+4.2}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
        <./figures/simulation/bias_ckt.png> <./figures/simulation/ids_versus_vds
-.png>] [5pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.1.3}) has been already used, duplicate ignored
+.png>] [29pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.4.3}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.4}) has been already used, duplicate ignored
+4.4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
        <./figures/simulation/stab_fact.png> <./figures/simulation/stab_meas.png
->] [6pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-.5}) has been already used, duplicate ignored
+>] [30pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.5}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.6}) has been already used, duplicate ignored
+4.6}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.101 
+l.103 
        <./figures/simulation/load_stab.png> <./figures/simulation/source_stab.p
 ng>]
-<figures/simulation/pae_pout_smith_cont_fund.png, id=83, 706.64pt x 595.72563pt
->
+<figures/simulation/pae_pout_smith_cont_fund.png, id=435, 706.64pt x 595.72563p
+t>
 File: figures/simulation/pae_pout_smith_cont_fund.png Graphic file (type png)
  <use figures/simulation/pae_pout_smith_cont_fund.png>
 Package pdftex.def Info: figures/simulation/pae_pout_smith_cont_fund.png used o
-n input line 110.
+n input line 112.
 (pdftex.def)             Requested size: 289.07733pt x 243.70369pt.
 
-<figures/simulation/pae_pout_res_cont_fund.png, id=84, 706.64pt x 489.32813pt>
+<figures/simulation/pae_pout_res_cont_fund.png, id=436, 706.64pt x 489.32813pt>
 File: figures/simulation/pae_pout_res_cont_fund.png Graphic file (type png)
-
 <use figures/simulation/pae_pout_res_cont_fund.png>
 Package pdftex.def Info: figures/simulation/pae_pout_res_cont_fund.png used on 
-input line 118.
+input line 120.
 (pdftex.def)             Requested size: 289.07733pt x 200.17783pt.
+ [31] [32pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.7}) has been already used, duplicate ignored
 
-<figures/simulation/smith_fund_source.png, id=87, 706.64pt x 534.49687pt>
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.128 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.128 
+       <./figures/simulation/pae_pout_smith_cont_fund.png> <./figures/simulatio
+n/pae_pout_res_cont_fund.png>]
+<figures/simulation/smith_fund_source.png, id=452, 706.64pt x 534.49687pt>
 File: figures/simulation/smith_fund_source.png Graphic file (type png)
 
 <use figures/simulation/smith_fund_source.png>
 Package pdftex.def Info: figures/simulation/smith_fund_source.png used on input
- line 130.
+ line 132.
 (pdftex.def)             Requested size: 289.07733pt x 218.65578pt.
 
-<figures/simulation/res_fund_source.png, id=88, 706.64pt x 485.815pt>
+<figures/simulation/res_fund_source.png, id=453, 706.64pt x 485.815pt>
 File: figures/simulation/res_fund_source.png Graphic file (type png)
 
 <use figures/simulation/res_fund_source.png>
 Package pdftex.def Info: figures/simulation/res_fund_source.png used on input l
-ine 138.
+ine 140.
 (pdftex.def)             Requested size: 289.07733pt x 198.74066pt.
- [7] [8pdfTeX warning (ext4): destination with the same identifier (name{figure
-.1.7}) has been already used, duplicate ignored
 
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.148 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.8}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.148 
-       <./figures/simulation/pae_pout_smith_cont_fund.png> <./figures/simulatio
-n/pae_pout_res_cont_fund.png>] [9pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.1.9}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.148 
-      pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.10}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.148 
-       <./figures/simulation/smith_fund_source.png> <./figures/simulation/res_f
-und_source.png>]
-<figures/simulation/sc_fund_final_load.png, id=109, 706.64pt x 595.72563pt>
+<figures/simulation/sc_fund_final_load.png, id=457, 706.64pt x 595.72563pt>
 File: figures/simulation/sc_fund_final_load.png Graphic file (type png)
 
 <use figures/simulation/sc_fund_final_load.png>
 Package pdftex.def Info: figures/simulation/sc_fund_final_load.png used on inpu
-t line 167.
+t line 169.
 (pdftex.def)             Requested size: 289.07733pt x 243.70369pt.
 
-<figures/simulation/res_cont_fund_load_final.png, id=110, 706.64pt x 492.33937p
+<figures/simulation/res_cont_fund_load_final.png, id=458, 706.64pt x 492.33937p
 t>
 File: figures/simulation/res_cont_fund_load_final.png Graphic file (type png)
  <use figures/simulation/res_cont_fund_load_final.png>
 Package pdftex.def Info: figures/simulation/res_cont_fund_load_final.png used o
-n input line 175.
+n input line 177.
 (pdftex.def)             Requested size: 289.07733pt x 201.40968pt.
- [10pdfTeX warning (ext4): destination with the same identifier (name{table.1.3
-}) has been already used, duplicate ignored
+ [33] [34pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.9}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 
-      ] [11pdfTeX warning (ext4): destination with the same identifier (name{fi
-gure.1.11}) has been already used, duplicate ignored
-
-\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
-                                                  \fi \fi 
-l.189 
+l.191 
       pdfTeX warning (ext4): destination with the same identifier (name{figure.
-1.12}) has been already used, duplicate ignored
+4.10}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
-l.189 
+l.191 
+      pdfTeX warning (ext4): destination with the same identifier (name{table.4
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 
+       <./figures/simulation/smith_fund_source.png> <./figures/simulation/res_f
+und_source.png>] [35pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.4.11}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 
+      pdfTeX warning (ext4): destination with the same identifier (name{figure.
+4.12}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.191 
        <./figures/simulation/sc_fund_final_load.png> <./figures/simulation/res_
 cont_fund_load_final.png>]
-<figures/simulation/matching_network_woo.png, id=123, 415.05063pt x 354.32375pt
+<figures/simulation/matching_network_woo.png, id=475, 415.05063pt x 354.32375pt
 >
 File: figures/simulation/matching_network_woo.png Graphic file (type png)
  <use figures/simulation/matching_network_woo.png>
 Package pdftex.def Info: figures/simulation/matching_network_woo.png used on in
-put line 194.
-(pdftex.def)             Requested size: 361.36345pt x 308.49164pt.
- [12] [13pdfTeX warning (ext4): destination with the same identifier (name{figu
-re.1.13}) has been already used, duplicate ignored
+put line 196.
+(pdftex.def)             Requested size: 289.0895pt x 246.79224pt.
+ [36] [37pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.4.13}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.205 
        <./figures/simulation/matching_network_woo.png>]
-<figures/simulation/ids_vds_wave.png, id=137, 556.479pt x 336.0555pt>
-File: figures/simulation/ids_vds_wave.png Graphic file (type png)
+Overfull \hbox (14.36246pt too wide) in paragraph at lines 208--209
+[]\OT1/cmr/m/n/12 The am-pli-fier was sim-u-lated us-ing the har-monic bal-ance
+ and large sig-nal s-parameters
+ []
 
-<use figures/simulation/ids_vds_wave.png>
-Package pdftex.def Info: figures/simulation/ids_vds_wave.png used on input line
- 212.
+[38] <figures/amp_sim/ids_vds_wave.png, id=497, 556.479pt x 336.0555pt>
+File: figures/amp_sim/ids_vds_wave.png Graphic file (type png)
+
+<use figures/amp_sim/ids_vds_wave.png>
+Package pdftex.def Info: figures/amp_sim/ids_vds_wave.png used on input line 23
+7.
 (pdftex.def)             Requested size: 361.35043pt x 218.21811pt.
 
-<figures/amp_sim/IMD_singletone.png, id=138, 706.64pt x 570.63188pt>
+<figures/amp_sim/singletonesweep.png, id=498, 434.8245pt x 261.3765pt>
+File: figures/amp_sim/singletonesweep.png Graphic file (type png)
+
+<use figures/amp_sim/singletonesweep.png>
+Package pdftex.def Info: figures/amp_sim/singletonesweep.png used on input line
+ 243.
+(pdftex.def)             Requested size: 361.3554pt x 217.21362pt.
+
+<figures/amp_sim/IMD_singletone.png, id=499, 706.64pt x 570.63188pt>
 File: figures/amp_sim/IMD_singletone.png Graphic file (type png)
 
 <use figures/amp_sim/IMD_singletone.png>
 Package pdftex.def Info: figures/amp_sim/IMD_singletone.png used on input line 
-222.
+254.
 (pdftex.def)             Requested size: 361.35205pt x 291.80205pt.
 
-<figures/amp_sim/IMD_twotone.png, id=139, 706.64pt x 570.63188pt>
-File: figures/amp_sim/IMD_twotone.png Graphic file (type png)
+<figures/amp_sim/vswr.png, id=500, 706.64pt x 510.90875pt>
+File: figures/amp_sim/vswr.png Graphic file (type png)
 
-<use figures/amp_sim/IMD_twotone.png>
-Package pdftex.def Info: figures/amp_sim/IMD_twotone.png used on input line 230
-.
-(pdftex.def)             Requested size: 361.35205pt x 291.80205pt.
+<use figures/amp_sim/vswr.png>
+Package pdftex.def Info: figures/amp_sim/vswr.png used on input line 262.
+(pdftex.def)             Requested size: 361.35205pt x 261.26164pt.
+
+<figures/amp_sim/load_stab_amp.png, id=501, 706.64pt x 711.15688pt>
+File: figures/amp_sim/load_stab_amp.png Graphic file (type png)
+
+<use figures/amp_sim/load_stab_amp.png>
+Package pdftex.def Info: figures/amp_sim/load_stab_amp.png used on input line 2
+76.
+(pdftex.def)             Requested size: 287.2551pt x 289.09123pt.
+
+<figures/amp_sim/source_stab_amp.png, id=502, 706.64pt x 711.15688pt>
+File: figures/amp_sim/source_stab_amp.png Graphic file (type png)
+
+<use figures/amp_sim/source_stab_amp.png>
+Package pdftex.def Info: figures/amp_sim/source_stab_amp.png used on input line
+ 284.
+(pdftex.def)             Requested size: 287.2551pt x 289.09123pt.
 
 
-LaTeX Warning: Float too large for page by 20.98082pt on input line 233.
+LaTeX Warning: Float too large for page by 20.75246pt on input line 287.
 
-) [14pdfTeX warning (ext4): destination with the same identifier (name{figure.1
-.14}) has been already used, duplicate ignored
+) [39pdfTeX warning (ext4): destination with the same identifier (name{table.4.
+4}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.7 \include{chapters/simulation}
-                                  <./figures/simulation/ids_vds_wave.png>]
-[15pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1
-5}) has been already used, duplicate ignored
+                                 ] [40pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.4.14}) has been already used, duplicate ignored
+
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.7 \include{chapters/simulation}
                                  pdfTeX warning (ext4): destination with the sa
-me identifier (name{figure.1.16}) has been already used, duplicate ignored
+me identifier (name{figure.4.15}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 \include{chapters/simulation}
+                                  <./figures/amp_sim/ids_vds_wave.png> <./figur
+es/amp_sim/singletonesweep.png>] [41pdfTeX warning (ext4): destination with the
+ same identifier (name{figure.4.16}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 \include{chapters/simulation}
+                                 pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.17}) has been already used, duplicate ignored
 
 \AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
                                                   \fi \fi 
 l.7 \include{chapters/simulation}
                                   <./figures/amp_sim/IMD_singletone.png> <./fig
-ures/amp_sim/IMD_twotone.png>]) (main.bbl [16
+ures/amp_sim/vswr.png>] [42pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.4.18}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 \include{chapters/simulation}
+                                 pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.4.19}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.7 \include{chapters/simulation}
+                                  <./figures/amp_sim/load_stab_amp.png> <./figu
+res/amp_sim/source_stab_amp.png>]
+\openout2 = `chapters/test.aux'.
+
+ (chapters/test.tex
+Missing character: There is no ï in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+ [43
 
 
-]) (appendix-outline.tex)
+]
+Chapter 5.
+<figures/test/final_amp.jpg, id=532, 3097.5725pt x 2323.68124pt>
+File: figures/test/final_amp.jpg Graphic file (type jpg)
+
+<use figures/test/final_amp.jpg>
+Package pdftex.def Info: figures/test/final_amp.jpg used on input line 8.
+(pdftex.def)             Requested size: 361.34161pt x 271.06476pt.
+
+<figures/test/final_fan.jpg, id=533, 3245.12375pt x 2433.09pt>
+File: figures/test/final_fan.jpg Graphic file (type jpg)
+
+<use figures/test/final_fan.jpg>
+Package pdftex.def Info: figures/test/final_fan.jpg used on input line 16.
+(pdftex.def)             Requested size: 361.32217pt x 270.9078pt.
+ [44
+
+]
+<figures/test/input_vswr.png, id=543, 706.64pt x 478.78876pt>
+File: figures/test/input_vswr.png Graphic file (type png)
+
+<use figures/test/input_vswr.png>
+Package pdftex.def Info: figures/test/input_vswr.png used on input line 34.
+(pdftex.def)             Requested size: 361.35205pt x 244.83655pt.
+
+<figures/test/meas_singletone.png, id=545, 361.85187pt x 217.31187pt>
+File: figures/test/meas_singletone.png Graphic file (type png)
+
+<use figures/test/meas_singletone.png>
+Package pdftex.def Info: figures/test/meas_singletone.png used on input line 44
+.
+(pdftex.def)             Requested size: 361.35405pt x 217.01288pt.
+ [45] [46pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.5.1}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.48 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.5.2}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.48 \end{figure}
+                  <./figures/test/final_amp.jpg> <./figures/test/final_fan.jpg>
+] [47pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.3}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.54  A
+        comparison of the amplifier measurements and the design specificatio...
+ <./figures/test/input_vswr.png>]
+<figures/test/output_ip3.png, id=568, 361.85187pt x 217.31187pt>
+File: figures/test/output_ip3.png Graphic file (type png)
+
+<use figures/test/output_ip3.png>
+Package pdftex.def Info: figures/test/output_ip3.png used on input line 76.
+(pdftex.def)             Requested size: 361.35405pt x 217.01288pt.
+
+<figures/test/meas_imd.png, id=569, 313.67188pt x 191.71625pt>
+File: figures/test/meas_imd.png Graphic file (type png)
+
+<use figures/test/meas_imd.png>
+Package pdftex.def Info: figures/test/meas_imd.png used on input line 85.
+(pdftex.def)             Requested size: 361.36598pt x 220.86688pt.
+
+<figures/test/test_setup.jpg, id=570, 3276.24pt x 1842.885pt>
+File: figures/test/test_setup.jpg Graphic file (type jpg)
+
+<use figures/test/test_setup.jpg>
+Package pdftex.def Info: figures/test/test_setup.jpg used on input line 95.
+(pdftex.def)             Requested size: 361.33736pt x 203.25226pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+4}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \end{figure}
+                  <./figures/test/meas_singletone.png>] [49pdfTeX warning (ext4
+): destination with the same identifier (name{table.5.1}) has been already used
+, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \end{figure}
+                 pdfTeX warning (ext4): destination with the same identifier (n
+ame{figure.5.5}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.98 \end{figure}
+                  <./figures/test/output_ip3.png>]
+<figures/test/old_amp.jpg, id=583, 3564.31625pt x 2672.98625pt>
+File: figures/test/old_amp.jpg Graphic file (type jpg)
+
+<use figures/test/old_amp.jpg>
+Package pdftex.def Info: figures/test/old_amp.jpg used on input line 104.
+(pdftex.def)             Requested size: 361.34734pt x 270.98506pt.
+) [50pdfTeX warning (ext4): destination with the same identifier (name{figure.5
+.6}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \include{chapters/test}
+                            <./figures/test/meas_imd.png>] [51pdfTeX warning (e
+xt4): destination with the same identifier (name{figure.5.7}) has been already 
+used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \include{chapters/test}
+                           pdfTeX warning (ext4): destination with the same ide
+ntifier (name{figure.5.8}) has been already used, duplicate ignored
+
+\AtBegShi@Output ...ipout \box \AtBeginShipoutBox 
+                                                  \fi \fi 
+l.9 \include{chapters/test}
+                            <./figures/test/test_setup.jpg> <./figures/test/old
+_amp.jpg>]
+\openout2 = `chapters/conclusion.aux'.
+
+ (chapters/conclusion.tex
+Missing character: There is no ï in font cmr12!
+Missing character: There is no » in font cmr12!
+Missing character: There is no ¿ in font cmr12!
+ [52
+
+
+]
+Chapter 6.
+) [53
+
+] [54]) (main.bbl [55
+
+
+] [56
+
+] [57] [58]) (appendix-outline.tex)
 
 Package glossaries Warning: No \printglossary or \printglossaries found.
 (Remove \makeglossaries if you don't want any glossaries.)
 This document will not have a glossary.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 124.
-[17
-
-]
+[59]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 124.
- (main.aux (chapters/simulation.aux))
+ (main.aux (chapters/intro.aux) (chapters/classes.aux) (chapters/detail.aux) (c
+hapters/simulation.aux) (chapters/test.aux) (chapters/conclusion.aux))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 124.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 124.
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 7DE8BD4042BBC936C02D9238C6ACBED4;500.
+(rerunfilecheck)             Checksum: 19E57188A25574C7F625B2E8847D8962;1853.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
  )
 (\end occurred inside a group at level 1)
@@ -1022,21 +1500,27 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 124.
 ### simple group (level 1) entered at line 1061 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 14591 strings out of 493634
- 227152 string characters out of 3141310
- 406289 words of memory out of 3000000
- 17664 multiletter control sequences out of 15000+200000
- 11066 words of font info for 41 fonts, out of 3000000 for 9000
+ 15065 strings out of 493634
+ 236429 string characters out of 3141310
+ 411145 words of memory out of 3000000
+ 17930 multiletter control sequences out of 15000+200000
+ 11364 words of font info for 42 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 136i,9n,131p,1994b,2896s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 136i,11n,131p,1994b,2992s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/
 cm/cmbx12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mr12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti
-12.pfb>
-Output written on main.pdf (17 pages, 740236 bytes).
+/cmex10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
+mmi12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmm
+i6.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.
+pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb
+><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Pro
+gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on main.pdf (59 pages, 7578019 bytes).
 PDF statistics:
- 188 PDF objects out of 1000 (max. 8388607)
- 45 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 721 PDF objects out of 1000 (max. 8388607)
+ 185 named destinations out of 1000 (max. 500000)
+ 424 words of extra memory for PDF output out of 10000 (max. 10000000)
 
